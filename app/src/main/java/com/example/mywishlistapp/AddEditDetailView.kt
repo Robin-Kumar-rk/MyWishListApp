@@ -105,7 +105,6 @@ fun AddEditDetailView(
                         snackMessage.value = "Enter fields to create a wish."
                     }
                     scope.launch {
-//                        scaffoldState.snackbarHostState.showSnackbar(snackMessage.value)
                         navController.popBackStack()
                     }
                 }

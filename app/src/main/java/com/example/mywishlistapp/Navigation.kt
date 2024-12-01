@@ -13,7 +13,10 @@ import androidx.navigation.navArgument
 
 @Composable
 
-fun Navigation(viewModel: WishViewModel = viewModel(), navController: NavHostController = rememberNavController()) {
+fun Navigation(
+    viewModel: WishViewModel = viewModel(),
+    navController: NavHostController = rememberNavController()
+) {
     NavHost(
         navController = navController,
         startDestination = Screen.HomeScreen.route
